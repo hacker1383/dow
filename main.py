@@ -9,9 +9,9 @@ import os
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-bot = telebot.TeleBot('TOKEN')
-admin = 68747297
-botusername = 'Usernamebot'
+bot = telebot.TeleBot('266344988:AAHcpmC8kCgQuKjYzett08jdRaDJePIXDwM')
+admin = 119296662
+botusername = 'DOWNLOADERROBOT'
 
 @bot.message_handler(func=lambda m: m.text)
 def n(m):
